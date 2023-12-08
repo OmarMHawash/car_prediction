@@ -1,0 +1,3 @@
+content/data
+content/*.tar.gz
+app/__pycache__

@@ -1,0 +1,16 @@
+# Some statistics calculated:
+
+## Linear Regression
+#? dropped-NaN DF #
+# with outliers: 0.30 
+# without outliers: 0.63 +- 0.03
+
+#? filled-NaN DF #
+# with outliers: 0.26
+# without outliers: (+- 0.03)
+#* ffill, bfill, mean, median, mode
+#  0.58,  0.58,  0.55, 0.56,   0.62
+
+## Decision Tree
+# with outliers: -0.031
+# without outliers: 0.32
