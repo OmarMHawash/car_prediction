@@ -10,6 +10,8 @@ Flask, logging
 
 ## APIS:
 
+**note**: you can import postman collection from `CarPrediction.postman_collection.json` file
+
 ### 1.`/api` :
 
 - `GET`: Gives info about app

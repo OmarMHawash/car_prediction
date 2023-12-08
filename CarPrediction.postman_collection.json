@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "c1cc4a50-09e7-4fa3-a41b-09de5f0ce47a",
+		"name": "Car Prediction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "16308005"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"features\": [[2015,1200,30000,5,1]]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/api"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/api",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/api"
+			},
+			"response": []
+		}
+	]
+}
