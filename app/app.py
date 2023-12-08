@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 import pickle
 import logging
-from werkzeug.exceptions import BadRequest
 
 app = Flask(__name__)
 logging.basicConfig(level=logging.INFO)

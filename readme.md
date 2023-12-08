@@ -1,3 +1,13 @@
+## Packages Used:
+
+### - For scraping & training:
+
+BeautifulSoup, pandas, sklearn, matplotlib
+
+### - For API:
+
+Flask, logging
+
 ## APIS:
 
 ### 1.`/api` :
