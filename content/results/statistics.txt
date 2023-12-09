@@ -14,3 +14,13 @@
 ## Decision Tree
 # with outliers: -0.031
 # without outliers: 0.32
+
+## tried using DBSCAN to remove outliers instead othersf IQR,
+ change was about 0.014 worse
+
+## tired to remove outliers before managing NA values,
+ results were slightly different, LR went down, others went up!
+
+## After one hot encoding, everything have changed!
+ I am getting too much over fit in each: linear regression, kNN Regression, and decision tree
+ but not in Random forest.
